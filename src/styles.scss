@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~novo-elements/novo-elements";
+@import 'https://cdn.tailwindcss.com/3.3.1/tailwind.css';
+@import "novo-elements/novo-elements";
 
 app-job-list {
   novo-loading {

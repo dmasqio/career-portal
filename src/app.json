@@ -9,7 +9,8 @@
     "rtf",
     "odt"
   ],
-  "companyName": "[ COMPANY NAME HERE ]",
+  "companyName": "Optomi",
+  "COMPANY_NAME": "Optomi",
   "companyLogoPath": "",
   "companyUrl": "",
   "careersUrl": "",

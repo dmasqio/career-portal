@@ -1,1 +1,190 @@
-/* add custom CSS here */
+@import url('https://cdn.tailwindcss.com/3.3.1/tailwind.css');
+
+/* Global body styles */
+body {
+  overflow: hidden;
+  background-color: #FFF;
+  color: #000;
+}
+
+/* Styling for app-job-list component */
+app-job-list novo-loading {
+  position: absolute;
+  top: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Styling for novo-file-input component */
+novo-file-input {
+  width: 100%;
+}
+
+/* Styling for app-job-list component */
+app-job-list novo-list>div>novo-list-item {
+  border-bottom: unset;
+}
+
+app-job-list div.list-item {
+  color: #4a89dc;
+}
+
+app-job-list div.list-item item-header item-title > h6 {
+  color: #4a89dc;
+}
+
+/* Styling for novo-search component */
+novo-search {
+  padding: 17px;
+}
+
+novo-search > input[data-automation-id="novo-search-input"] {
+  padding: 8px 10px;
+  font-size: 1em;
+}
+
+novo-search button[theme="fab"][icon="bhi-search"] {
+  width: 40px;
+  height: 33px;
+  min-height: unset;
+  padding: 0;
+}
+
+novo-search button[theme="fab"][icon="bhi-search"] .flex-wrapper i {
+  font-size: 1em;
+  line-height: 14px;
+  padding: 0px;
+}
+
+novo-search.active {
+  max-width: 700px;
+}
+
+/* Styling for app-job-details component */
+app-job-details novo-card header {
+  padding: 10px 20px 10px 20px !important;
+  background-color: #BB5566;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-weight: 500;
+  min-width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 20px;
+  color: white;
+}
+
+app-job-details novo-card header i {
+  font-size: 1em;
+}
+
+app-job-details novo-card header h3 {
+  font-weight: 500 !important;
+}
+
+/* Styling for header component */
+.header > header h1 {
+  color: #D9DADC;
+}
+
+/* Styling for job details */
+.job-details p {
+  max-width: 100em;
+}
+
+/* Styling for app-sidebar component */
+app-sidebar novo-check-list {
+  display: flex;
+  flex-direction: column;
+  max-height: 20em;
+  flex-wrap: nowrap;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+app-sidebar novo-check-list::-webkit-scrollbar {
+  background-color: #fff;
+  height: 4px;
+  width: 4px;
+}
+
+app-sidebar novo-check-list::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+app-sidebar novo-check-list::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 4px;
+}
+
+app-sidebar label {
+  color: #2F384F !important;
+  font-weight: 600;
+}
+
+/* Styling for app-main-page component */
+app-main-page > novo-loading {
+  position: absolute;
+  top: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Styling for app-apply-modal component */
+app-apply-modal novo-form form div.consent-form novo-control.checkbox {
+  width: 50px;
+}
+
+app-apply-modal novo-form form div.consent-form div.field-message.checkbox.error-hidden,
+app-apply-modal novo-form form div.consent-form div.field-message.checkbox.error-shown {
+  display: none;
+}
+
+app-apply-modal novo-form form div.consent-form label.consent-checkbox-label {
+  float: right;
+  padding: 2em 0 0 0;
+}
+
+app-apply-modal novo-form form div.consent-form label.consent-checkbox-label span {
+  color: #276ecc;
+}
+
+app-apply-modal novo-form form div.eeoc-form novo-fieldset-header {
+  margin-left: -3em;
+  margin-right: -3em;
+}
+
+/* Styling for novo-modal and novo-notification footer */
+novo-modal > footer button,
+novo-notification > footer button {
+  width: 90%;
+  margin: 0px 0 25px 0 !important;
+}
+
+/* Custom styling for links, buttons, and other elements */
+a,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+select,
+textarea,
+novo-card,
+novo-list-item,
+novo-checkbox {
+  color: #2F384F;
+}
+
+/* Custom styling for warnings */
+.warning {
+  color: #yellow;
+}
+
+/* Custom styling for errors */
+.error {
+  color: #red;
+}
