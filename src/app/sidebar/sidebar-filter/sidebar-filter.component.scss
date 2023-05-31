@@ -1,11 +1,12 @@
 :host {
-  .filter-header{
+  .filter-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 25px;
     color: #2f384f;
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 600; /* Updated font-weight for better visibility */
+    font-size: 1.2em; /* Added font-size for better readability */
   }
 }

@@ -2,8 +2,8 @@
   background-color: #f4f4f4;
   &::-webkit-scrollbar {
     background-color: #fff;
-    height: 4px;
-    width: 4px;
+    height: 8px; /* Increased height for better visibility */
+    width: 8px; /* Increased width for better visibility */
   }
   &::-webkit-scrollbar-track {
     background-color: #fff;
@@ -18,13 +18,11 @@
   }
   > section.credits {
     padding: 27px 0 0 20px;
-
     span.powered-by {
-      font-size: 1em;
+      font-size: 1.2em; /* Increased font size for better readability */
       font-weight: 600;
       color: #202945;
     }
-
     .bullhorn {
       display: block;
       position: relative;
@@ -62,6 +60,7 @@
     padding: 0px 20px;
   }
 }
+
 .preferredLanguageDropdown {
-  margin: 10px 10px;
+  margin: 10px;
 }
