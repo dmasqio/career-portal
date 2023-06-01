@@ -1,10 +1,18 @@
 <div class="filter-header">
-  <span>{{ 'FILTER_BY'  | translate }} {{ title }}</span>
+  <span>{{ 'FILTER_BY' | translate }} {{ title }}</span>
 </div>
 <novo-loading *ngIf="loading"></novo-loading>
 
 <novo-form [form]="form" *ngIf="!loading">
   <div class="novo-form-row">
     <novo-control [form]="form" [control]="control"></novo-control>
+  </div>
+  <div class="filter-menu" [class.open]="showFilterMenu">
+    <div class="filter-menu-toggle" (click)="toggleFilterMenu()">
+
+    </div>
+    <div class="filter-menu-content">
+
+    </div>
   </div>
 </novo-form>
